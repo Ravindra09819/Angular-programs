@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title> Form Validation </title>
+        <script>
+            function passValidate()
+            {
+                var email1=document.getElementById("email")
+                // if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*())
+                var pass = document.getElementById("pass1").value;
+                var cpass = document.getElementById("pass2").value;
+				if(pass.length<8 || pass.length>13)
+					{
+						document.getElementById("p3").style.color = "red";
+                        document.getElementById("p3").innerText = "Length of Password is too short or long"; 
+					}
+                if(pass == cpass)
+                    {
+						document.getElementById("p2").style.color = "green";
+                        document.getElementById("p2").innerText = " Password Matched"; 
+                    }
+                else
+                    {
+                        document.getElementById("p2").style.color = "red";
+                        document.getElementById("p2").innerText = "Password Mismatch ";   
+                    }
+            }
+
+           /* function emailValidate()
+            {
+                var email = document.getElementById("email").value;
+                var regex = /^\w+([-.]?\w+)*@\w+([-.]?\w+)*\.\w+([-.]\w+)*$/;
+                if( regex.test(email))
+                {
+                    document.getElementById("p1").innerText = " ";
+                }
+                else
+                {
+                    document.getElementById("p1").style.color = "red";
+                    document.getElementById("p1").innerText = "Incorrect Email Id ";
+                }
+            }*/
+			
+        </script>
+    </head>
+	
+    <body>
+        <center>
+			<h1>JavaScript Form Validation </h1>
+			<fieldset style= "margin: 5% 30% 5% 30%;"> <legend align="center">Information Form</legend>
+            <form name="f"><br><br>
+                    First Name: <input type="text" id="first" required />
+                    <br> <br>
+                    Last Name: <input type="text" id="last" required />
+                    <br> <br>
+                    Email Address: <input type="email" id="email"  required />
+					<!--<p id="p1"> </p>-->
+                    <br> <br>
+                    Password: <input type="password" id="pass1" required /> 
+					<p id="p3"></p>
+                    <br> <br>
+                    Confirm Password: <input type="password" id="pass2" onkeyup="passValidate()" required />
+					<p id="p2"> </p>
+                    <br><br><br>
+                    <input type="submit">
+                    <input type="reset">
+					<br><br>
+            </form>
+			</fieldset>
+        </center>
+    </body>
+
+</html>

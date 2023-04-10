@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+    <title>Assignment 2 Q1.</title>
+    <style>
+        body
+        {
+            background-color:grey;
+        }
+      
+        #capital
+        {
+            color: orange;
+            font-weight:bold;
+            font-size:larger;
+			font-family:Times new roman;
+        }
+        #capital::first-letter 
+        {
+            font-size:35px;
+        }
+        header 
+        {
+            color:darkolivegreen;
+            font-size:20px;
+            font-weight:bolder;
+        }
+        
+        option
+        {
+            font-size:18px;
+            font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        }
+        select 
+        {
+            height:40px;
+            width:180px;
+        }
+
+        .a1{
+            animation: blinking 2s infinite;
+            font-size: 20px;
+        }
+        @keyframes blinking {
+            0% {
+                color: red;
+            }
+            50% {
+                color: #000;
+            }
+            75% {
+                color: red;
+            }
+            100% {
+                color: transparent;
+            }
+        }
+    </style>
+    <!-- <script type="text/javascript">
+        function printCapital()
+        {
+            var country = document.forms["form1"].country.value;
+            var capital_country = "Please select a country!!";
+            if (country == "India")
+            {
+                capital_country = "New Delhi";
+            }
+            if (country == "Japan")
+            {
+                capital_country = "Tokyo";
+            }
+            if (country == "Germany")
+            {
+                capital_country = "Berlin";
+            }
+            if (country == "Australia")
+            {
+                capital_country = "Canberra";
+            }
+            if (country == "China")
+            {
+                capital_country = "Beijing";
+            }
+            document.getElementById("capital").innerHTML = capital_country;
+
+
+        }
+    </script> -->
+</head>
+<body>
+    <center>
+        <header class="a1">Display capital </header>
+        <form name="form1">
+            <table>
+                <tr>
+                    <td>
+                        <select name="country" onchange="printCapital()">
+                            <option value="Select">Select Country</option>
+                            <option value="India">India</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Germany">Germany</option>
+                            <option value="China">China</option>
+                        </select>
+                    </td>
+                    <td id="capital">Capital</td>
+                </tr>
+            </table>
+        </form>        
+    </center>
+</body>
+</html>

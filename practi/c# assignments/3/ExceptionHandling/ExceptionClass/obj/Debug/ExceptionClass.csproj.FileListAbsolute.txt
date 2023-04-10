@@ -1,0 +1,18 @@
+C:\Users\heman\source\repos\ExceptionClass\bin\Debug\ExceptionClass.dll
+C:\Users\heman\source\repos\ExceptionClass\bin\Debug\ExceptionClass.pdb
+C:\Users\heman\source\repos\ExceptionClass\obj\Debug\ExceptionClass.csproj.AssemblyReference.cache
+C:\Users\heman\source\repos\ExceptionClass\obj\Debug\ExceptionClass.csproj.CoreCompileInputs.cache
+C:\Users\heman\source\repos\ExceptionClass\obj\Debug\ExceptionClass.dll
+C:\Users\heman\source\repos\ExceptionClass\obj\Debug\ExceptionClass.pdb
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\ExceptionClass\bin\Debug\ExceptionClass.dll
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\ExceptionClass\bin\Debug\ExceptionClass.pdb
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\ExceptionClass\obj\Debug\ExceptionClass.csprojAssemblyReference.cache
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\ExceptionClass\obj\Debug\ExceptionClass.csproj.CoreCompileInputs.cache
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\ExceptionClass\obj\Debug\ExceptionClass.dll
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\ExceptionClass\obj\Debug\ExceptionClass.pdb
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\ExceptionClass\obj\Debug\ExceptionClass.csproj.AssemblyReference.cache
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\ExceptionClass\obj\Debug\ExceptionClass.csproj.CoreCompileInputs.cache
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\ExceptionClass\obj\Debug\ExceptionClass.dll
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\ExceptionClass\obj\Debug\ExceptionClass.pdb
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\ExceptionClass\bin\Debug\ExceptionClass.dll
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\ExceptionClass\bin\Debug\ExceptionClass.pdb

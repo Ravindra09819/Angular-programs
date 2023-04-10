@@ -1,0 +1,8 @@
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\FootaballMatch\bin\Debug\FootaballMatch.exe.config
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\FootaballMatch\bin\Debug\FootaballMatch.exe
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\FootaballMatch\bin\Debug\FootaballMatch.pdb
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\FootaballMatch\obj\Debug\FootaballMatch.csproj.AssemblyReference.cache
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\FootaballMatch\obj\Debug\FootaballMatch.csproj.SuggestedBindingRedirects.cache
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\FootaballMatch\obj\Debug\FootaballMatch.csproj.CoreCompileInputs.cache
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\FootaballMatch\obj\Debug\FootaballMatch.exe
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\FootaballMatch\obj\Debug\FootaballMatch.pdb

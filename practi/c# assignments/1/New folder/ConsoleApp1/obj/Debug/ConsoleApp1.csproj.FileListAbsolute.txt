@@ -1,0 +1,11 @@
+D:\New folder\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\New folder\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+D:\New folder\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\New folder\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\New folder\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\New folder\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\New folder\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\New folder\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+\\192.168.2.1\msc fy\mscfy45\c# assignments\1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+    </script>
+
+    <style>
+        body{
+            font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        .btn {
+            background-color: #0f060a;
+            border-radius: 8px;
+            border-style:solid groove;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            width: 4rem;
+            display: inline-block;
+            
+            font-size: 14px;
+            font-weight: 500;
+            height:3remx;
+            line-height: 20px;
+            list-style: none;
+            margin: 5;
+            outline: none;
+            padding: 5px 8px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: color 100ms;
+            vertical-align: baseline;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .btn:hover,
+        .btn:focus {
+            background-color: #F082AC;
+        }
+.container{
+    margin: auto;
+    width: 30vh;
+    height: auto;
+}
+     
+    </style>
+
+ 
+
+
+
+
+</head>
+
+
+<body>
+    <div class="container">
+    <h3 class="head"> Type List to Add</h3>
+    <input type="text" id="addList">
+    <input type="button" name="add" class="btn" value="Add">
+    </button>
+
+    <div class="addTask">
+        <ul class="List">
+
+        </ul>
+    </div>
+</div>
+    <script>
+        $(document).ready(function () {
+            $('.btn').click(function () {
+                var content = $('#addList').val();
+                var fixingContent =
+                    '<li>' + content + '</li>';
+
+                $('.List').append(fixingContent);
+            })
+        })
+    </script>
+</body>
+
+</html>

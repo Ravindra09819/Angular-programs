@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <meta charset="utf-8">
+  <title>Append a div element (and all of its contents) dynamically to the body element</title>
+
+  <style>
+      .btn {
+            background-color: #EA4C89;
+            border-radius: 8px;
+            border-style: none;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            width: 4rem;
+            display: inline-block;
+            
+            font-size: 14px;
+            font-weight: 500;
+            height:3remx;
+            line-height: 20px;
+            list-style: none;
+            margin: 0;
+            outline: none;
+            padding: 5px 8px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: color 100ms;
+            vertical-align: baseline;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .btn:hover,
+        .btn:focus {
+            background-color: #F082AC;
+        }
+        .container{
+    margin: auto;
+    width: 30vh;
+    height: auto;
+}
+     
+  </style>
+</head>
+<body>
+    <div class="container">
+    <input type="button" name="add" class="btn" value="Add">
+</div>
+    <script>
+$(document).ready(function(){
+    $(".btn").click(function(){
+        $( "<div><h1>JQuery Core</h1></div>" ).appendTo( ".container" );
+    })
+})
+        
+    </script>
+</body>
+</html>

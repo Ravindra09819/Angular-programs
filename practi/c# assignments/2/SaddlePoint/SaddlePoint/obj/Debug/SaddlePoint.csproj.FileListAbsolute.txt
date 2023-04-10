@@ -1,0 +1,14 @@
+C:\Users\harsh\source\repos\SaddlePoint\SaddlePoint\bin\Debug\SaddlePoint.exe.config
+C:\Users\harsh\source\repos\SaddlePoint\SaddlePoint\bin\Debug\SaddlePoint.exe
+C:\Users\harsh\source\repos\SaddlePoint\SaddlePoint\bin\Debug\SaddlePoint.pdb
+C:\Users\harsh\source\repos\SaddlePoint\SaddlePoint\obj\Debug\SaddlePoint.csproj.AssemblyReference.cache
+C:\Users\harsh\source\repos\SaddlePoint\SaddlePoint\obj\Debug\SaddlePoint.csproj.SuggestedBindingRedirects.cache
+C:\Users\harsh\source\repos\SaddlePoint\SaddlePoint\obj\Debug\SaddlePoint.csproj.CoreCompileInputs.cache
+C:\Users\harsh\source\repos\SaddlePoint\SaddlePoint\obj\Debug\SaddlePoint.exe
+C:\Users\harsh\source\repos\SaddlePoint\SaddlePoint\obj\Debug\SaddlePoint.pdb
+C:\Users\Icon\OneDrive\Desktop\2-sem\Sem 2 Practicals(C# and FS)\C#\SaddlePoint\SaddlePoint\bin\Debug\SaddlePoint.exe.config
+C:\Users\Icon\OneDrive\Desktop\2-sem\Sem 2 Practicals(C# and FS)\C#\SaddlePoint\SaddlePoint\bin\Debug\SaddlePoint.exe
+C:\Users\Icon\OneDrive\Desktop\2-sem\Sem 2 Practicals(C# and FS)\C#\SaddlePoint\SaddlePoint\bin\Debug\SaddlePoint.pdb
+C:\Users\Icon\OneDrive\Desktop\2-sem\Sem 2 Practicals(C# and FS)\C#\SaddlePoint\SaddlePoint\obj\Debug\SaddlePoint.csproj.CoreCompileInputs.cache
+C:\Users\Icon\OneDrive\Desktop\2-sem\Sem 2 Practicals(C# and FS)\C#\SaddlePoint\SaddlePoint\obj\Debug\SaddlePoint.exe
+C:\Users\Icon\OneDrive\Desktop\2-sem\Sem 2 Practicals(C# and FS)\C#\SaddlePoint\SaddlePoint\obj\Debug\SaddlePoint.pdb

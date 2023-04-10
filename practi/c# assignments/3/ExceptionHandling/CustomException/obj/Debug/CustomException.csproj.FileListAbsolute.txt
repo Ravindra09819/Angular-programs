@@ -1,0 +1,36 @@
+C:\Users\heman\source\repos\CustomException\obj\Debug\CustomException.csproj.AssemblyReference.cache
+C:\Users\heman\source\repos\CustomException\obj\Debug\CustomException.csproj.SuggestedBindingRedirects.cache
+C:\Users\heman\source\repos\CustomException\obj\Debug\CustomException.csproj.CoreCompileInputs.cache
+C:\Users\heman\source\repos\CustomException\bin\Debug\CustomException.exe.config
+C:\Users\heman\source\repos\CustomException\bin\Debug\CustomException.exe
+C:\Users\heman\source\repos\CustomException\bin\Debug\CustomException.pdb
+C:\Users\heman\source\repos\CustomException\bin\Debug\ExceptionClass.dll
+C:\Users\heman\source\repos\CustomException\bin\Debug\ExceptionLibrary.dll
+C:\Users\heman\source\repos\CustomException\bin\Debug\ExceptionClass.pdb
+C:\Users\heman\source\repos\CustomException\bin\Debug\ExceptionLibrary.pdb
+C:\Users\heman\source\repos\CustomException\obj\Debug\CustomException.csproj.CopyComplete
+C:\Users\heman\source\repos\CustomException\obj\Debug\CustomException.exe
+C:\Users\heman\source\repos\CustomException\obj\Debug\CustomException.pdb
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\bin\Debug\CustomException.exe.config
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\bin\Debug\CustomException.exe
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\bin\Debug\CustomException.pdb
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\bin\Debug\ExceptionClass.dll
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\bin\Debug\ExceptionClass.pdb
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\bin\Debug\ExceptionLibrary.pdb
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\obj\Debug\CustomException.csprojAssemblyReference.cache
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\obj\Debug\CustomException.csproj.CoreCompileInputs.cache
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\obj\Debug\CustomException.csproj.CopyComplete
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\obj\Debug\CustomException.exe
+C:\Users\Icon\OneDrive\Desktop\New folder (3)\dot net\3\ExceptionHandling\CustomException\obj\Debug\CustomException.pdb
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\bin\Debug\CustomException.exe.config
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\bin\Debug\CustomException.exe
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\bin\Debug\CustomException.pdb
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\bin\Debug\ExceptionClass.dll
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\bin\Debug\ExceptionClass.pdb
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\bin\Debug\ExceptionLibrary.pdb
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\obj\Debug\CustomException.csproj.AssemblyReference.cache
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\obj\Debug\CustomException.csproj.SuggestedBindingRedirects.cache
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\obj\Debug\CustomException.csproj.CoreCompileInputs.cache
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\obj\Debug\CustomException.csproj.CopyComplete
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\obj\Debug\CustomException.exe
+\\192.168.2.1\msc fy\mscfy45\c# assignments\3\ExceptionHandling\CustomException\obj\Debug\CustomException.pdb

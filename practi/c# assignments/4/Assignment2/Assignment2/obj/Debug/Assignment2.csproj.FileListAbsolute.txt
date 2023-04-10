@@ -1,0 +1,33 @@
+C:\Users\harsh\source\repos\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
+C:\Users\harsh\source\repos\Assignment2\Assignment2\bin\Debug\Assignment2.exe
+C:\Users\harsh\source\repos\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
+C:\Users\harsh\source\repos\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.AssemblyReference.cache
+C:\Users\harsh\source\repos\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.SuggestedBindingRedirects.cache
+C:\Users\harsh\source\repos\Assignment2\Assignment2\obj\Debug\Assignment2.Form1.resources
+C:\Users\harsh\source\repos\Assignment2\Assignment2\obj\Debug\Assignment2.Properties.Resources.resources
+C:\Users\harsh\source\repos\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.GenerateResource.cache
+C:\Users\harsh\source\repos\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\harsh\source\repos\Assignment2\Assignment2\obj\Debug\Assignment2.exe
+C:\Users\harsh\source\repos\Assignment2\Assignment2\obj\Debug\Assignment2.pdb
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\bin\Debug\Assignment2.exe
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.AssemblyReference.cache
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.SuggestedBindingRedirects.cache
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\obj\Debug\Assignment2.Form1.resources
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\obj\Debug\Assignment2.Properties.Resources.resources
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.GenerateResource.cache
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\obj\Debug\Assignment2.exe
+\\192.168.2.1\msc fy\mscfy49\DOTNET\Assignment2\Assignment2\obj\Debug\Assignment2.pdb
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\bin\Debug\Assignment2.exe
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.AssemblyReference.cache
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.SuggestedBindingRedirects.cache
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\obj\Debug\Assignment2.Form1.resources
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\obj\Debug\Assignment2.Properties.Resources.resources
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.GenerateResource.cache
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\obj\Debug\Assignment2.exe
+\\192.168.2.1\msc fy\mscfy48\c#\Assignment\Assignment2\Assignment2\obj\Debug\Assignment2.pdb

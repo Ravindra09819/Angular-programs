@@ -1,0 +1,92 @@
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<title>Hidding Form Information</title>
+</head>
+<script>
+
+	//$(document).ready(function(){
+		//$('#f1 input').hide();
+	//});
+	
+	/*$(document).ready(function()
+	{
+	
+		$('#bt2').click(function()
+		{
+			$('form #name').hide();
+		});
+		
+		$('#bt1').click(function()
+		{
+			$('form #name').show();
+		});
+	});*/
+	
+	$(document).ready(function(){
+		$("#bt2").click(function(){
+			$("input").hide();
+		});
+		
+		$("#bt1").click(function(){
+			$("input").show();
+			});
+		});
+		
+
+	
+	//$('input[type="text"]').hide();
+
+</script>
+
+<style type="text/css">
+		
+			body {
+				padding: 1em;
+				font-size: 25px;
+				color: #000000;
+				background-color: #e3e3e3;
+				font-family: Arial;
+				text-align:center;
+				}
+				
+			#f1{
+					max-width: 400px;
+					margin: 10px auto;
+					padding: 16px;
+					background: #F7F7F7;
+					border: 2px solid black;
+					border-radius: 4px;
+				}
+				
+			#submit {
+					margin: 0px 10px 10px 0px;
+					border-radius: 3px;
+					font-size: 20px;
+					color: #FFF;
+					background-color:	#00FA9A;
+					transition: all 0.1s;
+					}
+					
+			button {
+					margin: 0px 10px 10px 0px;
+					border-radius: 3px;
+					font-size: 20px;
+					color: #FFF;
+					background-color:cyan;
+					transition: all 0.1s;
+					}
+				
+</style>
+
+<body>
+	<div id="f1">
+		First Name: <input type="text" name="first" id="fname"><br><br>
+		Last Name: <input type="text" name="last" id="lname"><br><br>
+		<input type="submit" value="submit" id="submit"><br><br>
+		<button id="bt1"> Show </button>
+		<button id="bt2"> hide </button>
+	</div>	
+	
+</body>
+</html>

@@ -1,0 +1,22 @@
+C:\Users\heman\source\repos\Notepad\bin\Debug\Notepad.exe.config
+C:\Users\heman\source\repos\Notepad\bin\Debug\Notepad.exe
+C:\Users\heman\source\repos\Notepad\bin\Debug\Notepad.pdb
+C:\Users\heman\source\repos\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+C:\Users\heman\source\repos\Notepad\obj\Debug\Notepad.csproj.SuggestedBindingRedirects.cache
+C:\Users\heman\source\repos\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+C:\Users\heman\source\repos\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+C:\Users\heman\source\repos\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+C:\Users\heman\source\repos\Notepad\obj\Debug\Notepad.exe
+C:\Users\heman\source\repos\Notepad\obj\Debug\Notepad.pdb
+C:\Users\heman\source\repos\Notepad\obj\Debug\Notepad.Notepad.resources
+\\192.168.2.1\msc fy\mscfy42\Notepad\bin\Debug\Notepad.exe.config
+\\192.168.2.1\msc fy\mscfy42\Notepad\bin\Debug\Notepad.exe
+\\192.168.2.1\msc fy\mscfy42\Notepad\bin\Debug\Notepad.pdb
+\\192.168.2.1\msc fy\mscfy42\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+\\192.168.2.1\msc fy\mscfy42\Notepad\obj\Debug\Notepad.csproj.SuggestedBindingRedirects.cache
+\\192.168.2.1\msc fy\mscfy42\Notepad\obj\Debug\Notepad.Notepad.resources
+\\192.168.2.1\msc fy\mscfy42\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+\\192.168.2.1\msc fy\mscfy42\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+\\192.168.2.1\msc fy\mscfy42\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+\\192.168.2.1\msc fy\mscfy42\Notepad\obj\Debug\Notepad.exe
+\\192.168.2.1\msc fy\mscfy42\Notepad\obj\Debug\Notepad.pdb

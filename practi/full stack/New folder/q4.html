@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <title>Assignment 2 Q2.</title>
+    <style>
+        button
+        {
+            background-color:lightgrey;
+            color:chocolate;
+            height:45px;
+            width:150px;
+            font-weight:bold;
+        }
+        body
+        {
+            background-color:grey;
+            background-repeat:no-repeat;
+        }
+    </style>
+    <script type="text/javascript">        
+        function b1() {
+            var a = document.getElementById("body");
+            a.style.background = "linear-gradient(blue,orange,green,brown)";
+        }
+        function b2() {
+            var a = document.getElementById("body");
+            a.style.background = "linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)";
+        }
+        function b3() {
+            var a = document.getElementById("body");
+            a.style.background = "radial-gradient(orangered,pink,yellow,black)";
+        }
+        function b4() {
+            var a = document.getElementById("body");
+            a.style.background = "radial-gradient(circle,white 5%, lightblue 15%, blue 60%)";
+        }
+    </script>
+</head>
+<body id="body">
+    <button class="button" onmouseover="b1()">Top to Bottom Linear Gradient</button>
+    <button class="button" onmouseover="b2()">Left to right Linear Gradient</button>
+    <button class="button" onmouseover="b3()">Evenly spaced Radial Gradient</button>
+    <button class="button" onmouseover="b4()">Differently spaced Radial Gradient</button>
+</body>
+</html>

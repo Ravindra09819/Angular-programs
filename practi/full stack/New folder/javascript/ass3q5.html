@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Ass3 Q5</title>
+    <style>
+        body {
+            font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .btn {
+            background-color: #130309;
+            border-radius: 8px;
+            border-style: none;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            width: 4rem;
+            display: inline-block;
+
+            font-size: 14px;
+            font-weight: 500;
+            height: 3remx;
+            line-height: 20px;
+            list-style: none;
+            margin: 0;
+            outline: none;
+            padding: 5px 8px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: color 100ms;
+            vertical-align: baseline;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .btn:hover,
+        .btn:focus {
+            background-color: #F082AC;
+        }
+
+        .container {
+            margin: auto;
+            width: 50vh;
+            height: auto;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <form name="f">
+            <h2>Fll This Form</h2>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">last name</label><input type="text" id="lname" name="lname"><br><br>  
+            <label for="emailId"> Email Address: </label><input type="text" id="emailId" onkeyup="emailValidate()"
+                name="emailId"><br>
+            <p id="e1"> </p>
+            <label for="pass">Password:</label> <input type="password" id="pass" name="pass"><br>
+            <p id="e2"> </p>
+            <label for="cpass">Confirm Password:</label> <input type="password" id="cpass" onkeyup="passValidate()"
+                name="cpass"><br><br>
+                <input type="submit" value="submit" class="btn">
+                <input type="reset" value="reset" class="btn">
+    
+        </form>
+
+    </div>
+
+    <script type='text/JavaScript'>
+    function passValidate()
+    {
+        var pass = document.getElementById("pass").value;
+        var cpass = document.getElementById("cpass").value;
+        if(pass == cpass)  {
+                console.log("4");
+                document.getElementById("e2").innerText = " "; 
+            }
+            else
+            {
+                console.log("5");
+                document.getElementById("e2").style.color = "red";
+                document.getElementById("e2").innerText = "Password does not match ";   
+            }
+    }
+    function emailValidate()
+    {
+        var emailId = document.getElementById("emailId").value;
+        console.log("1");
+        var regex = /^\w+([-.]?\w+)*@\w+([-.]?\w+)*\.\w+([-.]\w+)*$/;
+        if( regex.test(emailId))
+        {
+            console.log("2");
+            document.getElementById("e1").innerText = " ";
+        }
+        else
+        {        console.log("3");
+            document.getElementById("e1").style.color = "red";
+            document.getElementById("e1").innerText = "Invalid Email Id ";
+        }
+    }
+
+    // function emailValidate()
+    // {
+    //     var eid=document.getElementById("eid").value;
+    //     console.log("1");
+    //     var regex=/^\w+([-.]?\w+)*@\w+([-.]?\w+)*\.\w+([-.]\w+)*$/;
+    //     if(regex.test(eid))
+    //     {
+    //         console.log("2");
+    //         document.getElementById("e1").innerText="";
+    //     }
+    //     else
+    //     {
+    //         console.log("3");
+    //         document.getElementByid("e1").style.color="red";
+    //        document.getElementById("e1").innerText="Invalid Email id";
+    //     }
+    // }
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="a1"> Display Capital </header>
+    <form class="form1">
+    <table>
+        <tr>
+            <td>
+                <select class="country" onchange="printcapital()">
+                <option value="india">INDIA</option>
+                <option value="japan">Japan</option>
+                <option value="Afganistan">Afganistan</option>
+                <option value="America">America</option>
+                <option value="Uk">uk</option>
+                <td id="capital" >capital</td>
+            
+            
+            </select>
+            </td>
+        </tr>
+
+    </table>
+</form>
+<script>
+    function printCapital()
+    {
+        var country=document.forms["form1"].country.value;
+        var capital_country="please select country";
+
+        if(country=="india")
+        {
+            capital_country="New delhi";
+        }
+    }
+</script>
+</body>
+</html>

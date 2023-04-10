@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<title> On Click Event </title>
+</head>
+
+<script>
+	
+	$(document).ready(function()
+	{
+		$("p").click(function(){
+			$("<p> This is click event by jquery </p>").appendTo("#event1");
+		});
+
+		$("p").dblclick(function(){
+		$("<p> This is Double Click event by jquery </p>").appendTo("#event1");
+		});
+	});
+	
+	/*$("p").bind("dblclick", function(){
+	$("<p> This is Double Click event by jquery </p>").appendTo("#event1");
+	});*/
+	
+</script>
+
+<body>
+	<p> Click Me .... </p>
+	<div id="event1"></div>
+</body>

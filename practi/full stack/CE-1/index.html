@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <style>
+        .radio{
+            align-items: right;
+        }
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        form{
+            padding:15px;
+            text-align: center;
+        }
+        div{
+            margin: 10% 35% 30%;
+            border: 0px solid black;
+            padding:15px 5px 15px 15px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .submit{
+            margin-left:3%;
+        }
+        .reset{
+            margin-left:16%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="welcome.html">
+            <label for="firstname"><b>Name: </b></label><input type="text" id="name" placeholder="Enter your full name" required><br><br>
+            <label for="age"><b>Age: </b></label>
+            <input type="radio" class="radio" name="a1">18<br>
+            <input type="radio" class="radio" name="a1">19-35<br>
+            <input type="radio" class="radio" name="a1">36-48<br>
+            <input type="radio" class="radio" name="a1">>49<br>
+            <label for="profession"><b>Profession: </b></label><input type="text" id="profession"><br><br>
+            <label for="country"><b></b> Country: </label>
+            <select>
+                <option value="India">India</option>
+                <option value="England">England</option>
+                <option value="Australia">Australia</option>
+                <option value="USA">USA</option>
+                <option value="Russia">Russia</option>
+                <option value="China">China</option>
+            </select><br><br>
+            <label for="experience">Interests:</label>
+            <input type="checkbox">Football<br>
+            <input type="checkbox">Cricket<br>
+            <input type="checkbox">Programming<br>
+            <input type="checkbox">Driving<br>
+            <br>  
+            <label>How did the user find out about the site:</label><textarea cols="30" rows="6"></textarea><br><br>
+            <input type="submit" value="Submit" class="submit"><input type="reset" value="Reset" class="reset">
+        </form>
+    </div>
+</body>
+</html>

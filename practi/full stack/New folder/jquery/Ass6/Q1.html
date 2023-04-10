@@ -1,0 +1,54 @@
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<title>Appending Div Tag </title>
+</head>
+
+<script>
+
+	$(document).ready(function()
+	{
+         $('#app').click(function() {
+			$('#example').append($('#add').val());
+		});
+	});
+	
+</script>
+
+<style type="text/css">
+		
+			body {
+				padding: 1em;
+				font-size: 25px;
+				color: #000000;
+				background-color: #e3e3e3;
+				font-family: Arial;
+				text-align:center;
+				}
+				
+			#f1{
+					max-width: 400px;
+					margin: 10px auto;
+					padding: 16px;
+					background: #F7F7F7;
+					border: 2px solid black;
+					border-radius: 4px;
+				}
+				
+			#app {
+					margin: 0px 10px 10px 0px;
+					border-radius: 3px;
+					font-size: 20px;
+					color: #FFF;
+					background-color:	#00FA9A;
+					transition: all 0.1s;
+					}
+</style>					
+<body>
+	<form id="f1">
+	<input type="text" id="add"/><br><br>
+	<input type="button" value="Append" onclick="test()" id="app"/> <br><br>
+	<div id="example"></div>
+	</form>
+</body>
+	

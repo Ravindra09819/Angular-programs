@@ -1,0 +1,15 @@
+C:\Users\Amanulla\Desktop\c#\ass6Q10A\ass6Q10A\bin\Debug\ass6Q10A.exe.config
+C:\Users\Amanulla\Desktop\c#\ass6Q10A\ass6Q10A\bin\Debug\ass6Q10A.exe
+C:\Users\Amanulla\Desktop\c#\ass6Q10A\ass6Q10A\bin\Debug\ass6Q10A.pdb
+C:\Users\Amanulla\Desktop\c#\ass6Q10A\ass6Q10A\obj\Debug\ass6Q10A.csproj.AssemblyReference.cache
+C:\Users\Amanulla\Desktop\c#\ass6Q10A\ass6Q10A\obj\Debug\ass6Q10A.csproj.CoreCompileInputs.cache
+C:\Users\Amanulla\Desktop\c#\ass6Q10A\ass6Q10A\obj\Debug\ass6Q10A.exe
+C:\Users\Amanulla\Desktop\c#\ass6Q10A\ass6Q10A\obj\Debug\ass6Q10A.pdb
+\\192.168.2.1\msc fy\mscfy45\dot net\shrikant fs\c#\ass6Q10A\ass6Q10A\bin\Debug\ass6Q10A.exe.config
+\\192.168.2.1\msc fy\mscfy45\dot net\shrikant fs\c#\ass6Q10A\ass6Q10A\bin\Debug\ass6Q10A.exe
+\\192.168.2.1\msc fy\mscfy45\dot net\shrikant fs\c#\ass6Q10A\ass6Q10A\bin\Debug\ass6Q10A.pdb
+\\192.168.2.1\msc fy\mscfy45\dot net\shrikant fs\c#\ass6Q10A\ass6Q10A\obj\Debug\ass6Q10A.csproj.AssemblyReference.cache
+\\192.168.2.1\msc fy\mscfy45\dot net\shrikant fs\c#\ass6Q10A\ass6Q10A\obj\Debug\ass6Q10A.csproj.SuggestedBindingRedirects.cache
+\\192.168.2.1\msc fy\mscfy45\dot net\shrikant fs\c#\ass6Q10A\ass6Q10A\obj\Debug\ass6Q10A.csproj.CoreCompileInputs.cache
+\\192.168.2.1\msc fy\mscfy45\dot net\shrikant fs\c#\ass6Q10A\ass6Q10A\obj\Debug\ass6Q10A.exe
+\\192.168.2.1\msc fy\mscfy45\dot net\shrikant fs\c#\ass6Q10A\ass6Q10A\obj\Debug\ass6Q10A.pdb
