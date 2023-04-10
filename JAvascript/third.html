@@ -1,0 +1,33 @@
+<DOCTYPE html>
+    <html>
+    <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.min.js"></
+    script>
+    <body >
+     <div ng-app="DemoApp" ng-controller="DemoController">
+     <div>
+     <h2>Student Information</h2>
+     First Name : <input type="text" ng-model="firstName"><br><br>
+     Last Name :<input type="text" ng-model="lastName"><br><br>
+     Date of Birth :<input type="date" ng-model="DOB"><br><br>
+     Mobile No:<input type="number" ng-model="mobile"><br><br>
+    </div>
+    </div>
+    <div>
+     <h2>Student Information</h2>
+     <p ng-app="">
+     First Name:{{firstName}}<br><br>
+     Last Name:{{lastName}}<br><br>
+     Date of Birth:{{DOB}}<br><br>
+     Mobile No:{{mobile}}
+     </p>
+    </div> <script>
+     var app=angular.module('DemoApp',[]);
+    app.controller('DemoController',function($scope)
+     {
+     $scope.firstName="";
+     $scope.lastName="";
+     $scope.DOB="";
+     $scope.mobile="";
+     });
+    </script>
