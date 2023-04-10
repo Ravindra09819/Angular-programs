@@ -1,0 +1,24 @@
+import java.io.*;
+class Mac
+{
+ public static void main(String args[])
+ {
+	 int count=0;
+	File f=new File("C:\\xampp");
+	
+	String[] s=f.list();
+	
+	for(String x:s)
+	{
+		File f1=new File(f,x);
+		if(f1.isDirectory())
+		{
+			count++;
+			System.out.println(x);
+		}
+	}
+	System.out.println("Total no.of files :"+count);
+ }
+	
+}
+

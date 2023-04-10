@@ -1,0 +1,25 @@
+class Mac 
+{
+	int x=10;
+	
+	class B 
+	{
+		int x=20;
+		public void show()
+		{
+			int x=30;
+		System.out.println(x);//30
+		System.out.println(this.x);//20
+		
+		}
+	}
+	
+
+public static void main(String args[])
+  {
+	
+  new Mac().new B().show();
+	
+  }
+  
+ }

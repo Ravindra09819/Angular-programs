@@ -1,0 +1,18 @@
+class Mac 
+{
+	class B 
+	{
+		public void show()
+		{
+		System.out.println("Hello i m in class B.");	
+		}
+	}
+
+public static void main(String args[])
+  {
+	 new Mac().new B().show();
+  
+	
+  }
+  
+ }

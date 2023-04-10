@@ -1,0 +1,9 @@
+class A 
+{
+    public static void main(String args[])
+	{
+		String s=new String("cnc");
+		s.concat("web");
+		System.out.println(s);//cnc
+	}
+}

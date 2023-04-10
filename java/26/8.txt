@@ -1,0 +1,16 @@
+
+class Main
+{
+ public static void main(String args[])
+ {
+	StringBuilder s=new StringBuilder();
+
+	System.out.println(s.capacity());//16
+	
+	s.append("cnc");
+	System.out.println(s.capacity());//16
+	s.append("worldpunennn");
+	System.out.println(s.capacity());
+	
+ }
+}

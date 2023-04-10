@@ -1,0 +1,11 @@
+class A 
+{
+	public static void main(String args[])
+	{
+      StringBuffer s1=new StringBuffer("cnc");
+	  StringBuffer s2=new StringBuffer("cnc");
+	  
+	   System.out.println(s1==s2);//false
+	  System.out.println(s1.equals(s2));//false
+	}
+}

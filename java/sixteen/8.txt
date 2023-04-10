@@ -1,0 +1,23 @@
+class A 
+{
+	public void hello()throws Exception
+	{
+		for(int x=1;x<=10;x++)
+		{
+			if(x==4)
+			{
+				Thread.sleep(3000);
+			}
+			System.out.println(x);
+		}
+	}
+}
+class Main
+{
+  public static void main(String args[])throws Exception
+   {
+	A ao=new A();
+	ao.hello();
+   }
+ }
+ 

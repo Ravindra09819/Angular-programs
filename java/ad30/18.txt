@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>My1stWebPage.com</title>
+</head>
+<body>
+
+<img src="p.jpg" vspace="100"hspace="100"title="Its Penguin"width="300"height="300"border="10">
+
+
+</body>
+
+</html>

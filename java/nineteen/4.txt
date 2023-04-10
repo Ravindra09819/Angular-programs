@@ -1,0 +1,27 @@
+class A 
+{
+	public void hello()
+	{
+		System.out.print("Hello we are learning ");
+		try{
+		Thread.sleep(3000);
+		}
+		catch(Exception e)
+		{
+			
+		}
+		System.out.println("Multithreading... ");
+	}
+}
+class Mac
+{
+   public static void main(String args[])
+   {
+	  
+    A ao=new A();
+	ao.hello();
+	ao.hello();
+	ao.hello();
+   }
+}
+

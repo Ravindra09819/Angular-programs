@@ -1,0 +1,40 @@
+class A extends Thread 
+{
+	public void run()
+	{
+		Thread.currentThread().setName("A");
+		System.out.println("Name of Thread A.."+Thread.currentThread().getName());
+	}
+}
+class B extends Thread 
+{
+	public void run()
+	{
+		Thread.currentThread().setName("B");
+		System.out.println("Name of Thread B.."+Thread.currentThread().getName());
+	}
+}
+class C extends Thread 
+{
+	public void run()
+	{
+		Thread.currentThread().setName("C");
+		System.out.println("Name of Thread C.."+Thread.currentThread().getName());
+	}
+}
+
+class Mac
+{
+   public static void main(String args[])
+   {
+     A ao=new A();
+	 B bo=new B();
+	 C co=new C();
+	 
+	 ao.start();
+	 bo.start();
+	 co.start();
+	 
+   
+   }
+}

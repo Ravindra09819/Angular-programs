@@ -1,0 +1,10 @@
+
+class Main
+{
+ public static void main(String args[])
+ {
+	int x=0xfd7;
+	System.out.println(x);
+	
+ }
+}

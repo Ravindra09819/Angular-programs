@@ -1,0 +1,15 @@
+class A 
+{
+	public void hello()
+	{
+		System.out.println("Hello I m in class A..");
+	}
+}
+class Main
+{
+ public static void main(String args[])
+ {
+	A ao=new A();
+	ao.hello();
+ }
+}

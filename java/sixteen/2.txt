@@ -1,0 +1,17 @@
+
+class Main
+{
+  public static void main(String args[])
+   {
+	int x[]={10,20,30};
+	try{
+  System.out.println(x[3]);	
+	}
+	finally
+	{
+		System.out.println("I m in finally Block..");
+	}
+	
+   }
+ }
+ 

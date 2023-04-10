@@ -1,0 +1,22 @@
+class Mac 
+{
+	int x=10;
+	static int y=11;
+	class B 
+	{
+		public void show()
+		{
+		System.out.println(x);	//10
+		System.out.println(y);	//11
+		}
+	}
+	
+
+public static void main(String args[])
+  {
+	
+  new Mac().new B().show();
+	
+  }
+  
+ }

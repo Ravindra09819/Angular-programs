@@ -1,0 +1,11 @@
+
+class Main
+{
+ public static void main(String args[])
+ {
+	StringBuilder s=new StringBuilder("cnc");
+	s.append("web");
+	System.out.println(s);//cncweb
+	
+ }
+}

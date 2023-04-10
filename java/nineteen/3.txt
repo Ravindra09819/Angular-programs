@@ -1,0 +1,48 @@
+class A extends Thread 
+{
+	public void run()
+	{
+		for(int i=1;;i++)
+		{
+			System.out.println("A.."+i);
+		}
+	}
+}
+class B extends Thread 
+{
+	public void run()
+	{
+		for(int i=1;;i++)
+		{
+			System.out.println("B.."+i);
+		}
+	}
+}
+
+class Mac
+{
+   public static void main(String args[])
+   {
+	  
+    A ao=new A();
+	ao.setPriority(4);
+	
+	B bo=new B();
+	bo.setPriority(8);
+	
+	ao.start();
+	bo.start();
+	
+	try{
+	Thread.sleep(2000);
+	}
+	catch(Exception e)
+	{
+		
+	}
+	ao.stop();
+	bo.stop();
+	
+   }
+}
+

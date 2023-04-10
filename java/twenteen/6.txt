@@ -1,0 +1,21 @@
+import java.util.*;
+class Mac
+{
+   public static void main(String args[])
+   {
+    ArrayList<Integer> ao=new ArrayList<Integer>();
+	
+	ao.add(10);
+	ao.add(11);
+	ao.add(12);
+	ao.add(13);
+	
+	for(int x:ao)
+	{
+	  System.out.println(x);	
+	}
+	
+   }
+	
+ }
+

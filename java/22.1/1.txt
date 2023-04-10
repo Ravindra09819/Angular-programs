@@ -1,0 +1,13 @@
+class Mac 
+{
+	class B 
+	{
+		
+	}
+
+public static void main(String args[])
+  {
+    System.out.println("Hello i m in class Mac.");
+  }
+  
+ }

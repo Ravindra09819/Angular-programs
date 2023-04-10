@@ -1,0 +1,10 @@
+
+class Main
+{
+ public static void main(String args[])
+ {
+	double x=010;
+	System.out.println(x);//8
+	
+ }
+}

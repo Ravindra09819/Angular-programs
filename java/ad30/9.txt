@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>My1stWebPage.com</title>
+</head>
+<body>
+<marquee behavior="alternate"direction="up"bgcolor="powderblue"height="300"width="300"scrollamount="9">We are Leaning Adv Java!!</marquee>
+</body>
+
+</html>

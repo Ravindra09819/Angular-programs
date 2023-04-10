@@ -1,0 +1,11 @@
+class A 
+{
+	public static void main(String args[])
+	{
+      StringBuilder s1=new StringBuilder("cnc");
+	  StringBuilder s2=new StringBuilder("cnc");
+	  
+	  System.out.println(s1==s2);//false
+	  System.out.println(s1.equals(s2));//false
+	}
+}

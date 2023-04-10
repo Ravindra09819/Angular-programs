@@ -1,0 +1,49 @@
+class A 
+{
+	public int x;
+	
+	public void showx()
+	{
+		
+		System.out.println(x);
+	}
+}
+class B extends A 
+{
+	public int y;
+	public void showy()
+	{
+	System.out.println(y);	
+	}
+	
+}
+class C extends B 
+{
+	public int z;
+	public void showz()
+	{
+	System.out.println(z);	
+	}
+}
+class D extends C 
+{
+	  public void sum()
+	  {
+		  int s=x+y+z;
+		 System.out.println("sum is:"+s);	 
+	  }
+}
+class Test
+{
+  public static void main(String args[])
+  {
+	D d=new D();
+	d.x=10;
+	d.y=20;
+	d.z=30;
+	d.showx();
+	d.showy();
+	d.showz();
+	d.sum();
+  }
+}

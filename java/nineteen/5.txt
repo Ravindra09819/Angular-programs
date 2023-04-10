@@ -1,0 +1,26 @@
+class A extends Thread
+{
+	public void run()
+	{
+		System.out.print("Hello we are learning ");
+		try{
+		Thread.sleep(3000);
+		}
+		catch(Exception e)
+		{
+			
+		}
+		System.out.println("Multithreading... ");
+	}
+}
+class Mac
+{
+   public static void main(String args[])
+   {
+	  
+    A ao=new A();
+	ao.start();
+	ao.start();//It will show Run time exception
+   }
+}
+

@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>My1stWebPage.com</title>
+</head>
+<body>
+<marquee direction="right">
+<marquee behavior="alternate"vspace="25"hspace="30"direction="up"bgcolor="powderblue"height="300"width="300"scrollamount="9">We are Leaning Adv Java!!
+
+<img src="p.jpg" width="150"height="150">
+
+</marquee>
+</marquee>
+</body>
+
+</html>

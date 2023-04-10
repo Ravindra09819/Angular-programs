@@ -1,0 +1,26 @@
+class A 
+{
+	public void Add()
+	{
+		class B 
+		{
+		  public void show(int x,int y)
+		  {
+			  int z=x+y;
+			  System.out.println("sum is:"+z);
+		  }		  
+		}
+		B bo=new B();
+		bo.show(10,20);
+	}
+	
+	
+public static void main(String args[])
+  {
+	A ao=new A();
+	ao.Add();
+  
+	
+  }
+  
+ }

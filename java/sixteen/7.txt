@@ -1,0 +1,22 @@
+
+class Main
+{
+  public static void main(String args[])
+   {
+	int balance=10000;
+	int withdrawl=9000;
+	
+	try
+	{
+	if(balance<withdrawl)
+		throw new ArithmeticException("Insufficient Balance..Dont Be Oversmart!!!");
+	System.out.println("Transaction completed..");
+	}
+	catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+	System.out.println("Program continues..");
+   }
+ }
+ 

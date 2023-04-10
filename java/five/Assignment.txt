@@ -1,0 +1,9 @@
+class A
+{
+ public static void main(String args[])
+ {
+   int x[]={10,20,30,40,50};
+			Find the max value from the array
+			Find the min value from the array
+ }
+}

@@ -1,0 +1,15 @@
+Enter the no. of rows:3
+Enter the no. of cols:2
+Enter 6 values:
+1
+2
+3
+4
+5
+6
+
+1 2 3
+
+4 5 6
+
+Sum is:

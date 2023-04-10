@@ -1,0 +1,18 @@
+import java.io.*;
+class Mac
+{
+ public static void main(String args[])throws Exception
+ {
+	FileReader f=new FileReader("hello.txt");
+	
+	int x=f.read();
+	
+	while(x!=-1)
+	{
+		System.out.println((char)x);
+		x=f.read();
+	}
+ }
+	
+}
+

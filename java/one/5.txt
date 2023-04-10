@@ -1,0 +1,9 @@
+class A 
+{
+public static void main(String args[])
+{
+	
+	int b=(int)10.5;//Explicit type cast
+	System.out.println(b);
+}
+}

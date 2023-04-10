@@ -1,0 +1,23 @@
+import java.util.*;
+class Mac
+{
+   public static void main(String args[])
+   {
+    ArrayList<String> ao=new ArrayList<String>();
+	System.out.println("Size of ArrayList is:"+ao.size());//0
+	ao.add("Pune");
+	ao.add("Mumbai");
+	ao.add("Delhi");
+	ao.add("Kolkata");
+	System.out.println("Size of ArrayList is:"+ao.size());//4
+	ao.add("Lucknow");
+	System.out.println("Size of ArrayList is:"+ao.size());//5
+	System.out.println(ao);
+	ao.remove(1);
+	ao.remove("Kolkata");
+	System.out.println("Size of ArrayList is:"+ao.size());
+	System.out.println(ao);
+   }
+	
+ }
+
