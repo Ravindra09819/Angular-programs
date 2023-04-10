@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form >
+            <h2>fill the form</h2>
+
+            <label for="fname"> First Name:</label>
+            <input type="text" id="fname" name="fname" ><br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            
+
+            <label for="email">Email Id:</label>
+            <input type="text" id="email"  name="email" onkeyup="emailValidate()"><br>
+            <p id="e1"></p>
+            
+            
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass">
+            <p id="e2"></p>
+            
+
+            <label for="cpass"> Confirm Password</label>
+            <input type="password" id="cpass"  onkeyup="passValidate()" name="cpass"><br><br>
+
+            <input type="submit" value="submit" class="btn">
+            <input type="reset" value="reset" class="btn">
+
+        </form>
+    </div>
+
+    <script type="text/javaScript">
+        
+        
+        function passValidate()
+        {
+            var pass=document.getElementById("pass").value;
+            var cpass=document.getElementById("cpass").value;
+
+            if(pass==cpass)
+            {
+                console.log("4");
+                document.getElementById("e2").innerText=" ";
+            }
+            else
+            {
+                console.log("5");
+                document.getElementById("e2").style.color="red";
+                document.getElementById("e2").innerText="password does not match";
+            }
+        }
+
+        function emailValidate()
+        {
+            var emailid=document.getElementById("email").value;
+            console.log("1");
+            var regex=/^\w+[_.]?\w+)*@\w+([_.]?\w+)*\.\w+([_.]\w+)*$/;
+
+            if(regex.text(emailid))
+            {
+                console.log("2");
+                document.getElementById("e1").innerText=" ";
+            }
+
+            else
+            {
+                console.log("3");
+                document.getElementById("e1").style.color="red";
+                document.getElementById("e1").innerText="invalid email id";
+            }
+        }
+
+
+
+    </script>
+</body>
+</html>

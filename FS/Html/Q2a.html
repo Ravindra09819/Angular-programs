@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+<style>
+    /* display the backgroud color */
+
+    body{
+        background-color: gray;
+    }
+
+    #capital
+    {
+        color:orange;
+        font-weight: bold;
+        font-size: large;
+        font-family: Times new roman;
+    }
+
+    #capital::first-letter
+    {
+        font-size: 35px;
+    }
+
+    header
+    {
+        color: darkolivegreen;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+option
+{
+  font-size: 18px; 
+  font-family: Cambria,Cochin,Georgia,Times,Times New Roman,serif; 
+}
+
+select
+{
+    height: 40px;
+    width:180px;
+
+}
+
+.a1
+{
+    animation: blinking 0.5s infinite;
+    font-size: 20px;
+}
+
+@keyframes blinking{
+0%{
+    color:red;
+}
+50%{
+    color:#000;
+}
+75%{
+    color:red;
+}
+100%
+{
+    color:transparent;
+}
+}
+</style>
+
+    <script type="text/javascript">
+        function printCapital()
+        {
+            var country=document.forms["form1"].country.value;
+            var capital_country="please select country!";
+            if(country=="India")
+            {
+                capital_country="New Delhi";
+
+            }
+            if(country=="Japan")
+            {
+                capital_country="Tokyo";
+            }
+            if(country=="Germany")
+            {
+                capital_country="Berlin";
+            }
+            if(country=="Australia")
+            {
+                capital_country="Canbbera";
+            }
+            if(country=="China")
+            {
+                capital_country="Beijing";
+            }
+            document.getElementById("capital").innerHTML=capital_country;
+            }
+        
+    </script>
+    </head>
+<body>
+<center>
+    <header class="a1"> Display capital city of selected country</header>
+    <form name="form1">
+        <table>
+            <tr>
+                <td>
+                    <select name="country" onchange="printCapital()">
+                    <option value="select">select country</option>
+                    <option value="India">India</option>
+                    <option value="Japan"> Japan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="China">China</option>
+                    </select>
+                </td>
+                <td id="capital">Capital</td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>

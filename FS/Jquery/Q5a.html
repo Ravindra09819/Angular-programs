@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add li in an existing ul.</title>
+</head>
+
+<body>
+    <script>
+
+        $(document).ready(function()
+        {
+             $('button').click(function() 
+             {
+                var mylist = $('#sub').val();
+                   $('#list').append('<li>'+mylist+'</li>');
+                   return false;
+             });
+        });
+    </script>
+    <form>
+        <div>
+            <ul id="list">
+                <li>Python</a></li>
+                <li>PHP</a></li>
+
+            </ul>
+        </div>
+        <br><br>
+        Enter New Subject:<input type="text" id="sub"><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

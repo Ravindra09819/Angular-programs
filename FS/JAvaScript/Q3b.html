@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body {
+            font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        .container {
+            margin: auto;
+            width: 60vh;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            font-size: larger;
+        }
+
+        input {
+            width: 5rem;
+            height: 3rem;
+            border-radius: 15px;
+            border: 2px solid rgb(85, 25, 182);
+            font-size: 25px;
+            align-items: center;
+        }
+
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            margin: 0;
+        }
+        input[type=number]{
+    -moz-appearance: textfield;
+}
+.field{
+    width: 7rem;
+    align-items: center;
+}
+.btn {
+            background-color: #070103;
+            border-radius: 8px;
+            border-style: none;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            width: 4rem;
+            height: 2.5rem;
+            display: inline-block;
+            
+            font-size: 14px;
+            font-weight: 500;
+            height:3remx;
+            line-height: 20px;
+            list-style: none;
+            margin: 0;
+            outline: none;
+            padding: 5px 8px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: color 100ms;
+            vertical-align: baseline;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .btn:hover,
+        .btn:focus {
+            background-color: #6548e6;
+        }
+        .box{
+            
+            margin: auto;
+            margin-top: 30px;
+            width: 50vh;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <center><h1 style="color: chocolate;"> Calculator</h1></center>
+    <DIV class="container">
+        
+        <div class="field1 field">
+            <label for="first">number 1</label>
+            <input type="number" name="first" id="first">
+        </div>
+        <div class="field2 field">
+            <label for="second">number 2</label>
+            <input type="number" name="second" id="second">
+        </div>
+        <div class="answer field">
+            <label for="answer">Answer</label>
+            <input type="number" name="answer" id="answer">
+        </div>
+    </DIV>
+    <div class="box">
+        <button class="btn" onclick="add()">Add</button>
+        <button class="btn" onclick="sub()">Sub</button>
+        <button class="btn" onclick="mul()">Mul</button>
+        <button class="btn" onclick="div()">Div</button>
+    </div>
+
+    <script>
+        function add(){
+        let num1 = document.getElementById("first").value;
+        let num2 = document.getElementById("second").value;
+        let ans = parseFloat(num1) + parseFloat(num2);
+        document.getElementById("answer").value = ans;
+        }
+        function sub(){
+        let num1 = document.getElementById("first").value;
+        let num2 = document.getElementById("second").value;
+        let ans = parseFloat(num1) - parseFloat(num2);
+        document.getElementById("answer").value = ans;
+        }
+        function mul(){
+        let num1 = document.getElementById("first").value;
+        let num2 = document.getElementById("second").value;
+        let ans = parseFloat(num1) * parseFloat(num2);
+        document.getElementById("answer").value = ans;
+        }
+        function div(){
+        let num1 = document.getElementById("first").value;
+        let num2 = document.getElementById("second").value;
+        let ans = parseFloat(num1) / parseFloat(num2);
+        document.getElementById("answer").value = ans;
+        }
+    </script>
+</body>
+
+</html>

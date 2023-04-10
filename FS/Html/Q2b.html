@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        button{
+            background-color: lightgray;
+            color:chocolate;
+            height: 45px;
+            width: 250px;
+            font-weight: bold;
+        }
+
+        body{
+            background-color: gray;
+            background-repeat: no-repeat;
+        }
+    </style>
+        <script type="text/javascript">
+    function b1(){
+        var a=document.getElementById("body");
+        a.style.background="linear-gradient(blue,orange,green,brown)";
+    }
+
+    function b2()
+    {
+        var a=document.getElementById("body");
+        a.style.background="linear_gradient(to right,red,orange,yellow,green,blue,indigo,violet)";
+    }
+
+    function b3() {
+            var a = document.getElementById("body");
+            a.style.background = "radial-gradient(orangered,pink,yellow,black)";
+        }
+
+        function b4() {
+            var a = document.getElementById("body");
+            a.style.background = "radial-gradient(circle,white 5%, lightblue 15%, blue 60%)";
+        }
+    </script>
+</head>
+<body>
+    <body id="body">
+        <button class="button" onmouseover="b1()">Top to Bottom Linear Gradient</button>
+        <button class="button" onmouseover="b2()">Left To Right Linear Gradient</button>
+        <button class="button" onmouseover="b3()">Evenly Sapced Radial Gradient</button>
+        <button class="button" onmousemove="b4()">Differently Spaced Radial Gradient</button>
+    </body>
+</body>
+</html>

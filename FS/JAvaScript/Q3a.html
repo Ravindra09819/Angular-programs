@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .btn{
+
+            background-color: aquamarine;
+            border-radius: 8px;
+            border-style: unset;
+            box-sizing: border-box;
+            color: crimson;
+            cursor: pointer;
+            width: 4rem;
+            display: inline-block;
+
+            font-size: 14px;
+            font-weight: 500;
+            height: 3rem;
+            line-height: 20px;
+            list-style: none;
+            margin: 0;
+            outline: none;
+            padding: 5px 8px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: color 100ms ;
+            vertical-align: baseline;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .btn:hover,
+        .btn:focus{
+            background-color: blueviolet;
+        }
+
+        .container{
+            margin: auto;
+            width: 50vh;
+            height:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form name="f">
+<h2>Fill This Form</h2>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+        
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="eid">Email Id:</label>
+            <input type="text" id="eid" onkeyup="emailValidate()" name="eid">
+
+            <p id="e1"></p>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass">
+
+            <p id="e2"></p>
+        <label for="cpass">Confirm Password:</label>
+        <input type="cpass" id="cpass" onkeyup="passValidate()" name="cpass"><br>
+
+        <input type="submit" value="submit" class="btn">
+
+        <input type="reset" value="reset" class="btn">
+        </form>
+    </div>
+    <script type='text/JavaScript'>
+        function passValidate()
+        {
+            var pass=document.getElementById("pass").value;
+            var cpass=document.getElementById("cpass").value;
+            if(pass==cpass)
+            {
+                console.log("4");
+                document.getElementById("e2").innerText="";
+            }
+            else
+            {
+                console.log("5");
+                document.getElementById("e2").style.color="red";
+                document.getElementById("e2").innerText="password does not match";
+;            }
+        }
+            
+        
+    </script>
+</body>
+</html>

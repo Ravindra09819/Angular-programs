@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append a div tag</title>
+</head>
+
+<style type="text/css">
+    body{
+        padding: 1em;
+        font-size: 25px;
+        color: blueviolet;
+        background-color: antiquewhite;
+        font-family: Arial;
+        text-align: center;
+    }
+
+    #f1{
+        max-width: 400px;
+        margin: 10px auto;
+        padding: 16px;
+        background: local;
+        border: 2px solid black;
+        border-radius: 4px;
+
+    }
+
+    #app{
+        margin: 0px 10px 10px 0px;
+        border-radius: 3px;
+        font-size: 20px;
+        color: crimson;
+        background-color: aqua;
+        transition: all 0.1s;
+    }
+</style>
+<body>
+    <form id="f1">
+        <input type="text" id="add"/><br><br>
+        <input type="button" value="Append" onclick="test()" id="app"/><br><br>
+        <div id="example"></div>
+    </form>
+    <script>
+        $(document).ready(function(){
+            $('#app').click(function(){
+                $('#example').append($('#add').val());
+            });
+        });
+    </script>
+    
+</body>
+</html>

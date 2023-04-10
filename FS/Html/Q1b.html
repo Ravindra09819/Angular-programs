@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG</title>
+</head>
+<body>
+    <h1>Find your current location</h1>
+    <!-- <button onclick="getlocation()">Click me!</button> -->
+    <div id="location"><button onclick="getlocation()">Where am i?</button></div>
+
+<h3> SVG Pentagaon</h3>
+<svg height="120"width="300">
+    <polygon points="50 3,100 38,82 100,20 100 ,3,38"   stroke="red" stroke-width="5"/>
+</svg>
+
+
+<!-- <polygon points="x1, y1 x2 ,y2 x3 ,y3 x4 ,y4 x5 ,y5"></polygon> -->
+<svg height="300" width="300">
+    <polygon points="100,15 40,200 190,80,10,80 160,200" fill="navy"/>
+</svg>
+
+<h4> Click play button to play Audio</h4>
+<audio src="01._Aai_Ambe_Jagdambe_-_Roar_Bass_mix(DjMarathi.In) - Copy.mp3" controls></audio>
+
+<video height="350" width="350" controls>
+    <source src="" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+</body>
+
+
+<script>
+    var x=document.getElementById("location")
+
+    function getlocation(){
+        if(navigator.geolocation){
+            alert("your browser is supporting Geolocation API")
+            navigator.getlocation.getCurrentPosition(showPosition)
+        }
+        else{
+            alert("sorry! your browser is not supporting")
+        }
+    }
+
+    function showPosition(position){
+        var x="your current location is("+"Latitude:"+position.coords.latitude +","+"Longitude:"+ position.coords.longitude+")";
+        document.getElementById("location").innerHTML=x;
+    }
+</script>
+</html>

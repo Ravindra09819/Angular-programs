@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    
+
+<button class="button" onmouseover="b1()"> top to bottom linear gradient</button>
+<button class="button" onmouseover="b2()">left to right liner gradient</button>
+<button class="button" onmouseover="b3()">evenly space radial gradiant</button>
+<button class="button" onmouseover="b4()">differently space radial gradiant</button>
+
+<script>
+    function b1()
+    {
+        var a=document.getElementById("body");
+        a.style.background="linear-gradient(blue,orange,green,brown)";
+    }
+
+    function b2()
+    {
+        var a=document.getElementById("body");
+        a.style.background="linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet)";
+
+    }
+
+    function b3()
+    {
+        var a=document.getElementById("body");
+        a.style.background="radial-gradient(orangered,pink,yellow,black)";
+
+    }
+
+    function b4()
+    {
+        var a=document.getElementById("body");
+        a.style.background="radial-gradient(circle,white 5%,lightblue 15%,blue 60%)";
+
+    }
+</script>
+
+</body >
+</html>

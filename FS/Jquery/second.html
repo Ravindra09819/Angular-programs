@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header
+        {
+            animation: blinking 0.5s infinite;
+            font-size: 20px;
+        }  
+        
+        @keyframes blinking
+        {
+            0%{color: red;}
+
+            50%{color: #000;}
+
+            75%{color:red;}
+
+            100%{color: transparent;}
+            
+        
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header id="header">Display Capital</header>
+        <div id="container">
+            <form id="form">
+                <table>
+                    <tr>
+                        <td>
+                            <select name="country" onchange="printcapital()">
+                                <option value="select">select country</option>
+                                <option value="india">India</option>
+                                <option value="japan">Japan</option>
+                                <option value="australia">Australia</option>
+                                <option value="germany">germany</option>
+                                <option value="china">china</option>
+                            </select>
+                        </td>
+                        <td id="capital">Capital</td>
+                    </tr>
+                </table>
+
+            </form>
+
+            
+        </div>
+    </center>
+
+    <script>
+        function printcapital()
+        {
+            var country=document.forms["form"].country.value;
+            var capital_country = "please select a country"
+
+            if(country=="india")
+            {
+                capital_country="New-Delhi";
+            }
+
+            if(country=="japan")
+            {
+                capital_country="Tokyo";
+            }
+
+            if(country=="germany")
+            {
+                capital_country="Berlin";
+            }
+
+            if(country=="australia")
+            {
+                capital_country="canberra";
+            }
+
+            if(country=="china")
+            {
+                capital_country="Beijing";
+            }
+
+            document.getElementById("capital").innerHTML=capital_country;
+
+        }
+    </script>
+    
+</body>
+</html>
